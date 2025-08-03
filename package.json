@@ -11,6 +11,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "lucide-react": "^0.279.0",
+    "clsx": "^2.0.0",
     "zustand": "^4.4.1"
   },
   "devDependencies": {
