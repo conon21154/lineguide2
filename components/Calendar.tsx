@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { ChevronLeft, ChevronRight, X, Calendar as CalendarIcon } from 'lucide-react'
+import { ChevronLeft, ChevronRight, X } from 'lucide-react'
 import { WorkOrder, OperationTeam, WorkOrderStatus } from '@/types'
 
 interface CalendarProps {
@@ -101,7 +101,7 @@ const DateDetailModal = ({ date, dayData, onClose }: DateDetailModalProps) => {
   )
 }
 
-export default function Calendar({ workOrders: filteredWorkOrders, selectedDate, onDateSelect }: CalendarProps) {
+export default function Calendar({ workOrders, selectedDate, onDateSelect }: CalendarProps) {
   const [currentMonth, setCurrentMonth] = useState(new Date())
   const [showDateDetail, setShowDateDetail] = useState<Date | null>(null)
 
