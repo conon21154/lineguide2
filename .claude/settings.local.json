@@ -4,7 +4,10 @@
       "Bash(npm run typecheck:*)",
       "Bash(npm run dev:*)",
       "Bash(pkill:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }
